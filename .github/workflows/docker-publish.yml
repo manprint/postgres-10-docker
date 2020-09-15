@@ -4,12 +4,11 @@ on:
   push:
 
     # exclude files or path for action trigger
-    path:
-      - "*"
-      - "!**/README.md"
-      - "!**/build-postgres-10-ita.sh"
-      - "!**/postgres-run-dev.sh"
-      - "!**/postgres-run-prod.sh"
+    paths-ignore:
+      - 'README.md'
+      - 'build-postgres-10-ita.sh'
+      - 'postgres-run-dev.sh'
+      - 'postgres-run-prod.sh'
 
     # Publish `master` as Docker `latest` image.
     branches:
