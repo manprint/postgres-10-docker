@@ -1,4 +1,4 @@
-# Postgres 10.13 - Replication Enabled/PITR
+# Postgres 10 final - Replication Enabled/PITR
 
 ## Uso dev
 

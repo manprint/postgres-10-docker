@@ -15,5 +15,5 @@ docker run \
 	-v "$(pwd)"/wal:/var/lib/postgresql/wal:rw \
 	-v "$(pwd)"/base:/var/lib/postgresql/base:rw \
 	--name postgres-10.13-ita \
-    postgres10-final:latest \
+    ghcr.io/manprint/postgres10-final:latest \
     -c 'config_file=/etc/postgresql/postgresql.conf'

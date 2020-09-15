@@ -4,7 +4,7 @@ echo "Script name: pgbasedump full backup"
 echo "***********************************"
 
 docker exec --user postgres \
-	-it postgres10-final:latest \
+	-it ghcr.io/manprint/postgres10-final:latest \
 	pg_basebackup -U postgres \
 	-v -P \
 	--format=tar \
