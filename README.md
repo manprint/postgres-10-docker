@@ -2,7 +2,7 @@
 
 ## Istruzioni
 
-Seguire una delle due modalità di esecuzione
+Seguire una delle due modalità di esecuzione!
 
 ## Uso dev
 
