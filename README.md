@@ -1,5 +1,9 @@
 # Postgres 10 final - Replication Enabled/PITR
 
+## Istruzioni
+
+Seguire una delle due modalità di esecuzione
+
 ## Uso dev
 
 1. Creare una directory per inizializzare il docker di postgres ex: `postgres-docker`

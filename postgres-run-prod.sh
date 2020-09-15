@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "Script name: run postgres 10.13 ita"
-echo "***********************************"
+echo "Script name: run postgres 10 final ita"
+echo "**************************************"
 
 docker run \
 	-d \
